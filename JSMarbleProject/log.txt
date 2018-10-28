@@ -1,0 +1,15 @@
+ERROR 2018-10-17 21:29:00,275 207595ms HomeController         Index              - prueba
+INFO  2018-10-17 21:57:04,297 824985ms HomeController         IndexSend          - Correo enviado
+INFO  2018-10-17 22:02:01,902 75255ms HomeController         IndexSend          - Correo enviadoSystem.Net.Mail.MailMessageServersmtpout.secureserver.netCopyorojasli1991@outlook.com
+INFO  2018-10-17 22:06:52,869 121743ms HomeController         IndexSend          - Correo enviado: System.Net.Mail.MailMessage Server: smtpout.secureserver.net Copy: orojasli1991@outlook.com
+INFO  2018-10-19 22:32:38,155  4245ms HomeController         Index              - cargando
+INFO  2018-10-19 23:05:26,214 15148ms HomeController         Index              - cargando
+INFO  2018-10-19 23:07:07,212 116146ms HomeController         Index              - entro al ActionResult index
+INFO  2018-10-19 23:07:07,263 116197ms HomeController         IndexSend          - entro a IndexSend
+INFO  2018-10-19 23:07:30,071 139005ms HomeController         Index              - cargando
+INFO  2018-10-19 23:08:24,632 193566ms HomeController         Index              - entro al ActionResult index
+INFO  2018-10-19 23:08:24,632 193566ms HomeController         IndexSend          - entro a IndexSend
+INFO  2018-10-19 23:14:47,548  2035ms HomeController         Index              - cargando
+INFO  2018-10-19 23:16:03,175 77663ms HomeController         Index              - entro al ActionResult index
+INFO  2018-10-19 23:16:06,839 81327ms HomeController         IndexSend          - entro a IndexSend
+INFO  2018-10-27 22:01:00,392  3759ms HomeController         Index              - cargando

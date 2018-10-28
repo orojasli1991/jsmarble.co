@@ -1,0 +1,359 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/MasterLayout.cshtml";
+}
+
+@{
+    ViewBag.Title = "Home";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- Fonts-->
+    <link rel="stylesheet" type="text/css" href="~/Content/fonts/fontawesome/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/fonts/pe-icon/pe-icon.css">
+    <!-- Vendors-->
+    <link rel="stylesheet" type="text/css" href="~/Content/vendors/bootstrap/grid.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/vendors/magnific-popup/magnific-popup.min.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/vendors/swiper/swiper.css">
+    <!-- App & fonts-->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Oswald:400,600|Playfair+Display:400i">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/main.css">
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+    <!-- preload -->
+    <div class="preload" id="preload">
+        <div class="cssload-spin-box"></div>
+    </div><!-- End / preload -->
+
+    <div class="page-wrap">
+
+        <!-- header -->
+        @Html.Partial("Header")
+        <!-- End / header -->
+        <!-- Content-->
+        <div class="md-content">
+
+            <!-- hero -->
+            <hero class="hero" id="1">
+
+                <!-- swiper swiper-container -->
+                <div class="swiper swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="hero__wrapper" style="background-image: url('/Content/img/slider/1.jpg');">
+                            <div class="hero__inner">
+                                <div class="container">
+                                    <h1 class="hero__title">How to Master Microcopy</h1>
+                                    <p class="hero__desc">Suspendisse ac elit vitae est lacinia interdum eu sit amet mauris. Phasellus aliquam nisi sit amet</p>
+
+                                    <!-- btn -->
+                                    <a class="btn btn-primary" href="#">
+                                        button
+                                    </a><!-- End / btn -->
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hero__wrapper" style="background-image: url('/Content/img/slider/2.jpg');">
+                            <div class="hero__inner">
+                                <div class="container">
+                                    <h1 class="hero__title">Design a Perfect Homepage</h1>
+                                    <p class="hero__desc">Duis porttitor libero ac egestas euismod. Maecenas quis felis turpis. Nulla quis turpis sed augue</p>
+
+                                    <!-- btn -->
+                                    <a class="btn btn-primary" href="#">
+                                        button
+                                    </a><!-- End / btn -->
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hero__wrapper" style="background-image: url('/Content/img/slider/3.jpg');">
+                            <div class="hero__inner">
+                                <div class="container">
+                                    <h1 class="hero__title">Free PSD Files</h1>
+                                    <p class="hero__desc">Curabitur elementum urna augue, eu porta purus gravida in. Cras consectetur, lorem a cursus</p>
+
+                                    <!-- btn -->
+                                    <a class="btn btn-primary" href="#">
+                                        button
+                                    </a><!-- End / btn -->
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hero__wrapper" style="background-image: url('/Content/img/slider/4.jpg');">
+                            <div class="hero__inner">
+                                <div class="container">
+                                    <h1 class="hero__title">How to Create and Manage SVG Sprites</h1>
+                                    <p class="hero__desc">Nam suscipit nisi risus, et porttitor metus molestie a. Phasellus id quam id turpis suscipit</p>
+
+                                    <!-- btn -->
+                                    <a class="btn btn-primary" href="#">
+                                        button
+                                    </a><!-- End / btn -->
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination-custom"></div>
+                    <div class="swiper-button-custom">
+                        <div class="swiper-button-prev-custom"><i class="fa fa-angle-left"></i></div>
+                        <div class="swiper-button-next-custom"><i class="fa fa-angle-right"></i></div>
+                    </div>
+                </div><!-- End / swiper swiper-container -->
+
+            </hero><!-- End / hero -->
+            <!-- cta-02 -->
+            <div class="cta-02">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-9 ">
+                            <h3 class="cta-02__title">Looking for a high quality specialized company for your project?</h3>
+                        </div>
+                        <div class="col-lg-3  md-text-right">
+
+                            <!-- btn -->
+                            <a class="btn btn-outline" href="#4">
+                                Get a quote
+                            </a><!-- End / btn -->
+
+                        </div>
+                    </div>
+                </div>
+            </div><!-- End / cta-02 -->
+            <!-- Section -->
+            <section class="md-section" id="2" style="background-color:#fff;padding:60px 0;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 ">
+                            <div class="mb-30">
+
+                                <!-- sec-title -->
+                                <div class="sec-title sec-title__lg-title">
+                                    <h2 class="sec-title__title">¿WHO ARE WE? <span>JS Marble</span></h2><span class="sec-title__divider"></span>
+                                </div><!-- End / sec-title -->
+
+                                <p>We are a leading company company in the exploitation of marble. We have been producers and direct marketers to consumers for 10 years. We have materials for immediate delivery in our warehouses and we are specialized in projects such as marble plates, columns, moldings, ovalines, marble tables, fireplaces, kitchens, rustic bars, floors and any custom design.</p><br>
+                                <p>We have acquired a solid experience in the sector, which qualifies us as a company that offers excellent quality and service.</p>
+                                <p>The quality of our products, professional service and prices we offer, make JS Marble one of the best options in the national and international market in the supply of marble in the construction industry.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 ">
+
+                            <!-- about -->
+                            <div class="about">
+                                <img src="~/Content/img/about/2.jpg" alt="" />
+
+                                <!-- quote-02 -->
+                                <blockquote class="quote-02 about-quote">
+                                    <h3>RESPONSIBILITY</h3>
+                                    <p class="quote-02__text">Place your trust in a company with experience and responsibility for the development of their work</p>
+                                    <h3>HIGH QUALITY</h3>
+                                    <p class="quote-02__text">Place your trust in a company with experience and responsibility for the development of their work</p>
+                                    <!-- authorbox -->
+                                    <div class="authorbox">
+                                        <div class="authorbox__avartar" style="background-image: url(/Content/footer/400X400.png);"><img src="/Content/footer/400X400.png" alt="" /></div>
+                                        <div class="authorbox__info">
+                                            <h5 class="authorbox__name">JS Marble</h5>
+                                            <p class="authorbox__work">Company</p>
+                                        </div>
+                                    </div><!-- End / authorbox -->
+
+                                </blockquote><!-- End / quote-02 -->
+
+                            </div><!-- End / about -->
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End / Section -->
+            <!-- Section -->
+            <section class="md-section" id="3">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-xs-offset-0 col-sm-offset-0 col-md-offset-0 col-lg-offset-2 ">
+
+                            <!-- sec-title -->
+                            <div class="sec-title sec-title__lg-title md-text-center">
+                                <h2 class="sec-title__title">Services</h2><span class="sec-title__divider"></span>
+                            </div><!-- End / sec-title -->
+
+                        </div>
+                    </div>
+                    <div class="row row-eq-height">
+                        <div class="col-sm-6 col-md-6 col-lg-4 " style="height: 428px;">
+
+                            <!-- services -->
+                            <div class="gallery-wrap gallery-album">
+                                <div class="grid-css grid-css--grid" data-col-lg="4" data-col-md="2" data-col-sm="2" data-col-xs="1" data-gap="30">
+                                    <div class="grid__inner" style="position: relative; height: 1170px;">
+                                        <div class="grid-sizer"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="services">
+                                <div class="services__img"><img src="~/Content/img/service/1.jpg" alt=""></div>
+                                <h2 class="services__title">Marble Plates</h2>
+                                <!-- btn -->
+                                    <a class="btn btn btn-primary btn-custom" href="@Url.Action("MarblePlates", "Home")">
+                                        information more
+                                    </a><!-- End / btn -->
+
+</div><!-- End / services -->
+
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-4 " style="height: 428px;">
+
+                            <!-- services -->
+                            <div class="services">
+                                <div class="services__img"><img src="~/Content/img/service/2.jpg" alt=""></div>
+                                <h2 class="services__title">Floors</h2>
+                                <!-- btn -->
+                                <a class="btn btn btn-primary btn-custom" href="@Url.Action("Floors", "Home")">
+                                    information more
+                                </a><!-- End / btn -->
+
+                            </div><!-- End / services -->
+
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-4 " style="height: 428px;">
+
+                            <!-- services -->
+                            <div class="services">
+                                <div class="services__img"><img src="~/Content/img/service/3.jpg" alt=""></div>
+                                <h2 class="services__title">Kitchens</h2>
+                                <!-- btn -->
+                                <a class="btn btn btn-primary btn-custom" href="@Url.Action("Kitchens","Home")">
+                                    information more
+                                </a><!-- End / btn -->
+
+                            </div><!-- End / services -->
+
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-4 " style="height: 428px;">
+
+                            <!-- services -->
+                            <div class="services">
+                                <div class="services__img"><img src="~/Content/img/service/4.jpg" alt=""></div>
+                                <h2 class="services__title">Marble Tables</h2>
+                                <!-- btn -->
+                                <a class="btn btn btn-primary btn-custom" href="@Url.Action("MarbleTables","Home")">
+                                    information more
+                                </a><!-- End / btn -->
+
+                            </div><!-- End / services -->
+
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-4 " style="height: 428px;">
+
+                            <!-- services -->
+                            <div class="services">
+                                <div class="services__img"><img src="~/Content/img/service/5.jpg" alt=""></div>
+                                <h2 class="services__title">Columns</h2>
+                                <!-- btn -->
+                                <a class="btn btn btn-primary btn-custom" href="@Url.Action("Columns", "Home")">
+                                    information more
+                                </a><!-- End / btn -->
+
+                            </div><!-- End / services -->
+
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-4 " style="height: 428px;">
+
+                            <!-- services -->
+                            <div class="services">
+                                <div class="services__img"><img src="~/Content/img/service/6.jpg" alt=""></div>
+                                <h2 class="services__title">Mouldings</h2>
+                                <!-- btn -->
+                                <a class="btn btn btn-primary btn-custom" href="@Url.Action("Mouldings", "Home")">
+                                    information more
+                                </a><!-- End / btn -->
+
+                            </div><!-- End / services -->
+
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-4 " style="height: 428px;">
+
+                            <!-- services -->
+                            <div class="services">
+                                <div class="services__img"><img src="~/Content/img/service/7.jpg" alt=""></div>
+                                <h2 class="services__title">Sinks</h2>
+                                <!-- btn -->
+                                <a class="btn btn btn-primary btn-custom" href="@Url.Action("Sinks", "Home")">
+                                    information more
+                                </a><!-- End / btn -->
+
+                            </div><!-- End / services -->
+
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-4 " style="height: 428px;">
+
+                            <!-- services -->
+                            <div class="services">
+                                <div class="services__img"><img src="~/Content/img/service/8.jpg" alt=""></div>
+                                <h2 class="services__title">Rustic Bars</h2>
+                                <!-- btn -->
+                                <a class="btn btn btn-primary btn-custom" href="@Url.Action("RusticBars","Home")">
+                                    information more
+                                </a><!-- End / btn -->
+
+                            </div><!-- End / services -->
+
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-4 " style="height: 428px;">
+
+                            <!-- services -->
+                            <div class="services">
+                                <div class="services__img"><img src="~/Content/img/service/9.jpg" alt=""></div>
+                                <h2 class="services__title">Chimneys</h2>
+                                <!-- btn -->
+                                <a class="btn btn btn-primary btn-custom" href="@Url.Action("Chimneys","Home")">
+                                    information more
+                                </a><!-- End / btn -->
+
+                            </div><!-- End / services -->
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End / Section -->
+            <!-- Contact Us-->
+        @Html.Partial("FormContact")
+<!-- End /  Contact Us -->
+        </div>
+        <!-- End / Content-->
+        <!-- footer-01 -->
+        @Html.Partial("Footer")
+        <!-- End / footer-01 -->
+    </div>
+    <!-- Vendors-->
+    <script type="text/javascript" src="~/Content/vendors/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="~/Content/vendors/imagesloaded/imagesloaded.pkgd.js"></script>
+    <script type="text/javascript" src="~/Content/vendors/isotope-layout/isotope.pkgd.js"></script>
+    <script type="text/javascript" src="~/Content/vendors/jquery.matchHeight/jquery.matchHeight.min.js"></script>
+    <script type="text/javascript" src="~/Content/vendors/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script type="text/javascript" src="~/Content/vendors/masonry-layout/masonry.pkgd.js"></script>
+    <script type="text/javascript" src="~/Content/vendors/swiper/swiper.jquery.js"></script>
+    <script type="text/javascript" src="~/Content/vendors/jquery-one-page/jquery.nav.js"></script>
+    <script type="text/javascript" src="~/Content/vendors/menu/menu.js"></script>
+    <script type="text/javascript" src="~/Content/vendors/jquery.waypoints/jquery.waypoints.min.js"></script>
+    <!-- App-->
+    <script type="text/javascript" src="~/Scripts/js/main.js"></script>
+</body>
+</html>
