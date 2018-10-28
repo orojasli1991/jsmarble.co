@@ -11,14 +11,13 @@ using log4net;
 
 namespace JSMarbleProject.Controllers
 {
-    public class HomeController : Controller
+   public class HomeController : Controller
     {       
         ILog log = log4net.LogManager.GetLogger(typeof(HomeController));
         public ActionResult Index(FormCollection form)
         {
             if (Request.HttpMethod == "POST")
             {
-                log.Info("entro al ActionResult index");
                 if (IndexSend(form))
                 {
                     //mensaje confirmacion
