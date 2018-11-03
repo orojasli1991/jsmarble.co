@@ -594,6 +594,18 @@ mark, .mark {
     margin-left: 20px;
 }
 
+.authorbox__avartar_header {
+    position: relative;
+    float: left;
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 40px;
+}
+
 .authorbox__avartar img {
     display: none !important;
 }

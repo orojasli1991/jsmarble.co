@@ -22,17 +22,14 @@ namespace JSMarbleProject.Controllers
                 {
                     //mensaje confirmacion
                 }
-                else {
-                    log.Error("Error no entro Request.HttpMethod ");
+                else {                   
                     //Mensaje de error al enviar el correo
                 }
             }
-            log.Info("cargando");
             return View();      
         }
         public bool IndexSend(FormCollection form)
-        {
-            log.Info("entro a IndexSend");
+        { 
             try
                 {
                 var viewModel = new FormContact
@@ -69,7 +66,7 @@ namespace JSMarbleProject.Controllers
                 }
                 catch (Exception e)
                 {
-                //log.Error(e.InnerException.Message);
+                log.Error(e.InnerException.Message);
                 return false;
                 }                 
         }

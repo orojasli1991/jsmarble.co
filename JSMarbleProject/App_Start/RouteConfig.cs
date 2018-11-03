@@ -58,7 +58,14 @@ namespace JSMarbleProject
           url: "Columns",
           defaults: new { controller = "Home", action = "Columns", id = UrlParameter.Optional }
     );
-            #endregion           
+            #endregion
+            #region Home
+            routes.MapRoute(
+            name: "index",
+            url: "index",
+            defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+            );
+            #endregion
             #region Default
             routes.MapRoute(
          name: "Default",

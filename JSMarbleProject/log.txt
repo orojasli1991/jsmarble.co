@@ -13,3 +13,64 @@ INFO  2018-10-19 23:14:47,548  2035ms HomeController         Index              
 INFO  2018-10-19 23:16:03,175 77663ms HomeController         Index              - entro al ActionResult index
 INFO  2018-10-19 23:16:06,839 81327ms HomeController         IndexSend          - entro a IndexSend
 INFO  2018-10-27 22:01:00,392  3759ms HomeController         Index              - cargando
+INFO  2018-10-28 00:16:34,339  3720ms HomeController         Index              - cargando
+INFO  2018-10-30 18:32:31,656  8446ms HomeController         Index              - cargando
+INFO  2018-11-01 18:13:55,392  2585ms HomeController         Index              - cargando
+INFO  2018-11-01 18:19:49,358  2785ms HomeController         Index              - cargando
+INFO  2018-11-01 18:26:50,106 423533ms HomeController         IndexSend          - entro a IndexSend
+ERROR 2018-11-01 18:26:50,553 423980ms HomeController         Index              - Error no entro Request.HttpMethod 
+INFO  2018-11-01 18:26:50,555 423982ms HomeController         Index              - cargando
+INFO  2018-11-01 18:26:58,448 431875ms HomeController         Index              - cargando
+INFO  2018-11-01 18:35:23,390 936817ms HomeController         Index              - cargando
+INFO  2018-11-01 18:35:55,638 969065ms HomeController         Index              - cargando
+INFO  2018-11-01 18:36:22,536 995963ms HomeController         Index              - cargando
+INFO  2018-11-01 18:40:38,330 36794ms HomeController         Index              - cargando
+INFO  2018-11-01 18:41:27,183 85647ms HomeController         Index              - cargando
+INFO  2018-11-01 18:41:34,538 93001ms HomeController         Index              - cargando
+INFO  2018-11-01 18:41:59,854 118318ms HomeController         Index              - cargando
+INFO  2018-11-01 18:42:28,069 146533ms HomeController         IndexSend          - entro a IndexSend
+ERROR 2018-11-01 18:42:28,227 146691ms HomeController         Index              - Error no entro Request.HttpMethod 
+INFO  2018-11-01 18:42:28,229 146693ms HomeController         Index              - cargando
+INFO  2018-11-01 18:45:39,548 47482ms HomeController         Index              - cargando
+INFO  2018-11-01 18:45:59,002 66936ms HomeController         Index              - cargando
+INFO  2018-11-01 18:48:11,473 199407ms HomeController         IndexSend          - entro a IndexSend
+ERROR 2018-11-01 18:48:11,647 199581ms HomeController         Index              - Error no entro Request.HttpMethod 
+INFO  2018-11-01 18:48:11,650 199584ms HomeController         Index              - cargando
+INFO  2018-11-01 18:55:46,781  8662ms HomeController         Index              - cargando
+INFO  2018-11-01 18:56:49,958 71840ms HomeController         Index              - cargando
+INFO  2018-11-01 19:11:43,418  4647ms HomeController         Index              - cargando
+INFO  2018-11-01 19:11:43,433  4662ms HomeController         Index              - cargando
+INFO  2018-11-01 19:12:57,444  2761ms HomeController         Index              - cargando
+INFO  2018-11-01 19:12:57,444  2761ms HomeController         Index              - cargando
+INFO  2018-11-01 19:12:57,444  2761ms HomeController         Index              - cargando
+INFO  2018-11-01 19:19:52,788  2941ms HomeController         Index              - cargando
+INFO  2018-11-01 19:19:52,821  2975ms HomeController         Index              - cargando
+INFO  2018-11-01 19:22:35,069  3831ms HomeController         Index              - cargando
+INFO  2018-11-01 19:22:35,069  3831ms HomeController         Index              - cargando
+INFO  2018-11-01 19:23:05,431 34193ms HomeController         Index              - cargando
+INFO  2018-11-01 19:23:09,277 38038ms HomeController         Index              - cargando
+INFO  2018-11-01 20:09:18,849 2807611ms HomeController         Index              - cargando
+INFO  2018-11-01 20:34:30,514 4319276ms HomeController         Index              - cargando
+INFO  2018-11-01 20:39:42,826  4443ms HomeController         Index              - cargando
+INFO  2018-11-01 20:43:33,472 235089ms HomeController         Index              - cargando
+INFO  2018-11-01 20:44:01,135 262752ms HomeController         Index              - cargando
+INFO  2018-11-01 20:45:00,156 321773ms HomeController         Index              - cargando
+INFO  2018-11-01 20:48:23,602 525219ms HomeController         Index              - cargando
+INFO  2018-11-01 20:52:01,060 742677ms HomeController         Index              - cargando
+INFO  2018-11-01 20:58:37,641 1139258ms HomeController         Index              - cargando
+INFO  2018-11-01 20:58:58,804 1160421ms HomeController         Index              - cargando
+INFO  2018-11-01 20:59:13,130 1174747ms HomeController         Index              - cargando
+INFO  2018-11-01 20:59:22,266 1183884ms HomeController         Index              - cargando
+INFO  2018-11-01 21:03:28,200 1429817ms HomeController         Index              - cargando
+INFO  2018-11-01 21:16:20,824  3206ms HomeController         Index              - cargando
+INFO  2018-11-01 21:17:20,861 63243ms HomeController         Index              - cargando
+INFO  2018-11-01 21:23:11,744  3142ms HomeController         Index              - cargando
+INFO  2018-11-01 21:41:26,392  3867ms HomeController         Index              - cargando
+INFO  2018-11-01 21:43:42,824 140299ms HomeController         Index              - cargando
+INFO  2018-11-01 21:49:12,095  2562ms HomeController         Index              - cargando
+INFO  2018-11-01 21:50:19,397 69864ms HomeController         Index              - cargando
+INFO  2018-11-01 22:02:04,771  3232ms HomeController         Index              - cargando
+INFO  2018-11-01 22:05:27,751 206212ms HomeController         Index              - cargando
+INFO  2018-11-01 22:09:02,781  5566ms HomeController         Index              - cargando
+INFO  2018-11-01 22:20:33,158  2870ms HomeController         Index              - cargando
+INFO  2018-11-02 19:14:28,324  4413ms HomeController         Index              - cargando
